@@ -247,6 +247,7 @@ html{
 }
 .card{
     width: 30%;
+    text-align: center;
 }
 @media screen  and (max-width:450px){
     nav>ul>li{
