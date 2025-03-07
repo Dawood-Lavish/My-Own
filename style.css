@@ -257,6 +257,9 @@ html{
         display: block;
         margin-right: 10px;
     }
+    .sec-back{
+        gap: 5px;
+    }
     nav{
         margin-top: 1.5rem;
     }
