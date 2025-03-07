@@ -246,10 +246,10 @@ html{
     margin-top: 1rem;
 }
 .card{
-    width: 30%;
+    width: 40%;
     text-align: center;
 }
-@media screen  and (max-width:450px){
+@media screen  and (max-width:500px){
     nav>ul>li{
         display: none;
     }
