@@ -52,11 +52,21 @@ html{
         width: 25px;
         background: black;
         height: 500px;
+        animation-name: L-1;
+        animation-duration: 800ms;
+        animation-direction: normal;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
     }
     .right-sec{
         width: 25px;
         background: black;
         height: 500px;
+         animation-name: L-1;
+        animation-duration: 800ms;
+        animation-direction: normal;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
     }
     .part-1{
         display: flex;
@@ -165,7 +175,7 @@ html{
  .social-icons >a{
     background: white;
     padding-top: 6px;
-    border-radius: 12px;
+    border-radius: 9px;
  }
  .contact-section {
     display: flex;
@@ -248,6 +258,18 @@ html{
 .card{
     width: 40%;
     text-align: center;
+}
+@keyframes L-1 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
 }
 @media screen  and (max-width:500px){
     nav>ul>li{
